@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "tictactoe2",
+    "name": "Tic Tac Toe 2",
     "slug": "tictactoe2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",  
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+       
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.arun33.tictactoe2"
+    },
+   
+    "extra": {
+      "eas": {
+        "projectId": "f473385b-d5bb-4a55-ac51-42718f1ae648"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "owner": "arun33"
   }
 }
